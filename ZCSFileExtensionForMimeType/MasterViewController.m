@@ -16,7 +16,8 @@
 	[super viewDidLoad];
 	UIImageView *bg = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg"]];
 	bg.frame = self.view.frame;
-	[self.view insertSubview:bg atIndex:0];
+	self.tableView.backgroundColor = [UIColor clearColor];
+	[self.parentViewController.view insertSubview:bg atIndex:0];
 	self.tableView.separatorColor = [UIColor whiteColor];
 }
 
