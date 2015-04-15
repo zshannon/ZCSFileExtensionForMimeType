@@ -42,7 +42,8 @@
 		[lookupHash setValue:@"mp3" forKey:@"audio/x-mp3"];
 #pragma mark MP4
 		[lookupHash setValue:@"m4a" forKey:@"audio/mp4"];
-		
+		[lookupHash setValue:@"m4a" forKey:@"audio/x-m4a"];
+
 #pragma mark - Movie
 #pragma mark MOV
 		[lookupHash setValue:@"mov" forKey:@"video/quicktime"];
@@ -54,7 +55,7 @@
 #pragma mark MPEG4
 		[lookupHash setValue:@"mp4" forKey:@"video/mp4"];
 		[lookupHash setValue:@"mp4" forKey:@"video/mp4v"];
-		
+
 #pragma mark - Image
 #pragma mark JPEG
 		[lookupHash setValue:@"jpg" forKey:@"image/jpg"];
@@ -65,7 +66,7 @@
 		[lookupHash setValue:@"png" forKey:@"image/png"];
 #pragma mark GIF
 		[lookupHash setValue:@"gif" forKey:@"image/gif"];
-		
+
 		lookupHash = [lookupHash copy];
 	}
 	return lookupHash;

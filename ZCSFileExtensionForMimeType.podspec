@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZCSFileExtensionForMimeType"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "iOS is sometimes stupid picky about file extensions. These are the extensions it usually wants."
 
   s.description  = <<-DESC
@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
   #  Specify a social_media_url where others can refer to, for example a twitter
   #  profile URL.
   #
-  
+
   s.author             = { "Zane Shannon" => "zane@smileslaughs.com" }
   # Or just: s.author    = "Zane Shannon"
   # s.authors            = { "Zane Shannon" => "zcs@smileslaughs.com" }
